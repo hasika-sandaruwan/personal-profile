@@ -1,12 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /*main Start*/
-.main-wrap{
+.main-wrap {
     width: 100vw;
     height: 100vh;
     border: 1px solid red;
     position: fixed;
+    display: flex;
 }
+
 /*main End*/
+/* start left*/
+
+.left-outer {
+    width: 280px;
+    height: 100vh;
+    border: 1px solid red;
+    margin-left: 90px;
+}
+
+/* end left*/
+
+/* start right*/
+.right-outer {
+    height: 100vh;
+    border: 1px solid blue;
+    flex: 1;
+    margin-right: 90px;
+}
+
+/* end right*/
