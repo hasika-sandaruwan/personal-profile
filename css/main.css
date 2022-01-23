@@ -149,4 +149,34 @@
 }
 /*home outer*/
 
+/*ABOUT OUTER*/
+.about-outer{
+    padding: 80px 0;
+}
+.title{
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
+    color: #7f8c8d;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding: 0 50px;
+}
+.title-desc{
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding: 0 50px;
+}
+.description{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #7f8c8d;
+    font-size: 13px;
+    padding: 0 50px;
+}
+.description b{
+    color: black;
+}
+/*ABOUT OUTER*/
+
 /* end right*/
