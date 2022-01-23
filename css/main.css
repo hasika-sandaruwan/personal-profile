@@ -113,7 +113,6 @@
     width: 100%;
     height: auto;
     min-height: 100vh;
-    border: 1px solid red;
 }
 
 /*home outer*/
@@ -187,8 +186,43 @@
 .square{
     width: 20%;
     height: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     -webkit-box-shadow: 2px 3px 9px 0px #000000;
     box-shadow: 2px 3px 9px 0px #000000;
+}
+.square p, h3{
+    padding: 0;
+    margin-top: 15px;
+    text-align: center;
+}
+.hire-wrap{
+    width: 100%;
+    height: 210px;
+    background-color: #d35400;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hire-desc{
+    padding: 0 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.hire-button{
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 8px 0;
+    width: 80px;
+    border: 1px solid white;
+    background: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
 }
 /*ABOUT OUTER*/
 
