@@ -39,6 +39,23 @@
 
 /*profile image*/
 
+/*Designation*/
+
+.name{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-top: 10px;
+}
+
+.occupation{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: #7f8c8d;
+    font-weight: normal;
+}
+
+/*Designation*/
+
 /* end left*/
 
 /* start right*/
