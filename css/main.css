@@ -112,7 +112,29 @@
     background: url("https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnVzaW5lc3NtYW58ZW58MHx8MHx8&w=1000&q=80") no-repeat center;
     background-size: cover;
 }
+.homer-inner-outer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.homer-inner-outer h1,p{
+    padding: 15px 50px;
+}
 
+.download-cv{
+    width: 150px;
+    background: none;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    margin-left: 50px;
+}
 /*home outer*/
 
 /* end right*/
