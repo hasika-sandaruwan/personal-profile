@@ -7,7 +7,6 @@
 .main-wrap {
     width: 100vw;
     height: 100vh;
-    border: 1px solid red;
     display: flex;
 }
 
@@ -17,10 +16,16 @@
 .left-outer {
     width: 280px;
     height: 100vh;
-    border: 1px solid red;
     margin-left: 90px;
     background-color: #f2f3f7;
     overflow: auto;
+}
+
+.left-outer::-webkit-scrollbar{
+    width: 8px;
+}
+.left-outer::-webkit-scrollbar-thumb{
+    background-color: #34495e;
 }
 
 /*profile image*/
@@ -86,6 +91,7 @@
     padding: 0 20px;
     font-size: 16px;
     font-weight: normal;
+    margin-bottom: 50px;
 }
 /*copy right*/
 
